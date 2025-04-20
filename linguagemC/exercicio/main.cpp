@@ -10,7 +10,7 @@ int main() {
 	altura=0;
 	
 	
-	printf("DIGITE A BASE: \n");
+	printf("DIGITE A BASE (NAO COLOCA NUMERO COM VIRGULA OU PONTO BELE?): \n");
 	scanf("%d", &base);
 	
 	printf("DIGITE A ALTURA: \n");
@@ -27,4 +27,5 @@ int main() {
 
     return 0;
 }
+
 
