@@ -6,9 +6,11 @@ body{
 
 h1{
     color: aliceblue; 
+    font-family: sans-serif;
 }
 p{
     color: aliceblue;
+    font-family: sans-serif;
 }
 
 
@@ -40,12 +42,16 @@ p{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
     text-align: left;
     
+    
 }
 #sim{
     text-align: center;
     
 }
 
+h4{
+    font-family: sans-serif;
+}
 
 
 #estado{
@@ -53,7 +59,7 @@ p{
     background-color: white;
     border-radius: 10px;
      width: 200px;
-
+     font-family: sans-serif;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
     margin-top: 10px;
