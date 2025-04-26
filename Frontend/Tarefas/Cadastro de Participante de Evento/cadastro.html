@@ -3,48 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Cadastro de participante</title>
 </head>
 <body>
     <h1>Campeonato de drift</h1>
-    <p>escrever os boas vindas</p>
-    Nome completo:<input type="text" name="Nome completo" id="">
+    <p>Bem vindo piloto! <br>
+        Faça sua inscrição para poder participar do campeonato
+    </p>
+<div id="Cadastro1">
+<h4>Nome completo: <br>
+    <input type="text" name="Nome completo" id="">
     <br>
-    Email:<input type="email" name="email" id="">
-<br>
-    data de nascimento: <input type="date" name="" id="">
+     Numeração de piloto: <br>
+    <input type="text" name="Nome completo" id="">
     <br>
-    Genero <br>
-   
-    <input type="radio" name="" id=""> Masculino
+   Cadastro da carteirinha CBA:
+   <br><input type="text" name="Nome completo" id="">
     <br>
+    Email:
+    <br><input type="email" name="email" id="">
+    <br>
+    Data de nascimento: <br> <input type="date" name="" id="">
+    <br></h4>
+</div>
     
+<div id="cadastrogenero">
+<h4>Gênero
+    <br>
+    <input type="radio" name="" id="">Masculino
+    <br>
     <input type="radio" name="" id="">Feminino
     <br>
-    Interesses <br>
-    <input type="checkbox" name="" id=""> 
-    <input type="checkbox" name="" id="">
-    <input type="checkbox" name="" id="">
-    <input type="checkbox" name="" id="">
-    <input type="checkbox" name="" id="">
-    <br>
+</h4>
+</div>
 
-    <select name="estado" id="">
+<div id="patrocinio">
+    <h4>Interesses de patrocínios <br>
+    <input type="checkbox" name="" id=""> 
+    Carros
+    <br>
+    <input type="checkbox" name="" id="">
+    Motores
+    <br>
+    <input type="checkbox" name="" id="">
+    Mecanicos
+    <br>
+    <input type="checkbox" name="" id="">
+    Pneus
+    <br>
+    <input type="checkbox" name="" id="">
+    Equipamentos
+    <br>
+</div>
+
+<div id="estado">
+<br>
+    Escolha seu estado<br>
+     <select name="estado" id="">
         <option value="bsb">BSB</option>
         <option value="bsb">SP</option>
         <option value="bsb">BH</option>
     </select>
+</div>
+<div id="motor">
+</h4>
+    <br>
+    <h4>Digite seu carro, Motor dele e a Potência</h4>
     <br>
     <textarea name="" id=""></textarea>
-<br>
-    <input type="submit" name="" id="">
     <br>
-    Programação
+    
+<input type="submit" name="" id="">
+    <br>
+</div>
+    
+
+<div id="Carros"><h4>Carros confirmados</div>
+
     <table border="4">
         <tr>
+            
             <td>Carro</td>
             <td>Motor</td>
-            <td>Potencia</td>
+            <td>Potência</td>
+        </tr>
+        
+        <tr>
+            
+            <td>Jzx100</td>
+            <td>2JZ</td>
+            <td>800WHP</td>
         </tr>
         <tr>
             <td>S15</td>
@@ -56,8 +105,9 @@
             <td>M50</td>
             <td>750WHP</td>
         </tr>
-        
+    
     </table>
+</h4>
 
 </body>
 </html>
