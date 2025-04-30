@@ -16,14 +16,16 @@ int main(int argc, char *argv[]) {
     printf("Digite o Primeiro numero:\n");
 	scanf("%d", &num1);
 	
-	printf("Digite o Segundo numero:\n");
-	scanf("%d", &num2);
-
-
 	printf("Escolha a operacao (+, -, *, /): ");
     operacao = getche(); // Lê o caractere e já mostra na tela
 
     printf("\nVoce escolheu: %c\n", operacao);
+	
+	printf("Digite o Segundo numero:\n");
+	scanf("%d", &num2);
+
+
+	
 
 
 	
