@@ -27,28 +27,27 @@ body, html {
     object-fit: cover;
 }
 
-#formulario{
+#formulario {
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    margin: auto;
-    position: relative;
-    padding: 15px;
     width: 300px;
     height: auto;
     text-align: center;
+    padding: 15px;
+
+    position: fixed;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* importante para ficar acima do vídeo */
+
     background: rgba(57, 52, 52, 0.2);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(57, 52, 52, 0.3);background: rgba(57, 52, 52, 0.2);
-    border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(57, 52, 52, 0.3);
-    
+    border-radius: 16px;
 }
 
 .content {
