@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    height: 100vh; 
+    /*vh = viewport height
+
+    100vh = ocupa toda a altura da tela
+    
+    50vh = ocupa metade da altura da tela
+    
+    10vh = 10% da altura da tela
+    NAO ESQUECER!!!!*/
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: gray;
+}
+.card{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 10px;
+     width: 400px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    
+    padding: 20px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: sans-serif;
+    
+
+}
+p{
+    font-family: Arial;
+    color: gray;
+    font-size: 20px;
+
+}
+
+.social{
+    justify-content: center;
+    display: flex;
+      gap: 30px; 
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+    
+}
+
+.social a {
+    text-decoration: none;
+    color: #0077b5; 
+    transition: color 0.3s;
+}
+
+.social a:hover {
+    color: #005582;
+  }
