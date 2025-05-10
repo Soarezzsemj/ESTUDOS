@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+
+    
+}
+
+
+
+img:active {
+    animation: infinite-spinning 10s infinite;
+height: 4000;
+}
+img{
+    border-radius: 100px;
+    width: 400px;
+    height: 100px;
+}
+
+header, footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.container{
+    padding: 1rem;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+
+    
+    
+}
+.card{
+    background-color: #ccc;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border: 0.5px solid rgb(51, 28, 28);
+    width: 200px;
+    margin: 0.5rem;
+}
+
+
+@keyframes infinite-spinning {
+    from {
+        transform: rotate(0deg);
+        
+    }
+    to {
+        
+        transform: rotate(360deg);
+        
+    }
+}
