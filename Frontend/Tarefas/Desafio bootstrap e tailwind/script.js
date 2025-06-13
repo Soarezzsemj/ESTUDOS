@@ -1,5 +1,5 @@
 // Função assíncrona para buscar um usuário
-async function fetchRandomUser() {
+/*async function fetchRandomUser() {
     const userInfoDiv = document.getElementById('user-info');
     const errorMessageDiv = document.getElementById('error-message');
     errorMessageDiv.textContent = ''; 
@@ -48,4 +48,5 @@ function displayUser(user) {
 document.getElementById('fetchUserBtn').addEventListener('click', fetchRandomUser);
 
 // Opcional: Busca um usuário ao carregar a página
-// fetchRandomUser();
+// fetchRandomUser(); 
+*/
